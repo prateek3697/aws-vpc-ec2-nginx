@@ -5,6 +5,6 @@ output "instance_public_ip" {
 }
 
 output "instance_url" {
-  description = "URL of the EC2 instance"
+  description = "URL of the EC2 instance :"
   value       = "http://${aws_instance.nginxserver.public_ip}"
 }
